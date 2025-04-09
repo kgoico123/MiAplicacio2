@@ -1,14 +1,14 @@
 package com.kecoodapp.miaplicacion2.adapters;
 
-public class Contacto {
+public class Color {
     private String name;
-    private int tel;
+    private int color;
 
-    public Contacto(String name,int tel) {
+    public Color(String name, int tel) {
         this.name = name;
-        this.tel=tel;
+        this.color=tel;
     }
-    public Contacto() {
+    public Color() {
 
     }
 
@@ -21,10 +21,10 @@ public class Contacto {
     }
 
     public int getTel() {
-        return tel;
+        return color;
     }
 
     public void setTel(int tel) {
-        this.tel = tel;
+        this.color = tel;
     }
 }

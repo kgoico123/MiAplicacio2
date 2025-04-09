@@ -1,7 +1,6 @@
 package com.kecoodapp.miaplicacion2.adapters;
 
 import android.view.LayoutInflater;
-import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -11,17 +10,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.kecoodapp.miaplicacion2.R;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
 
 public class BasicAdapter  extends RecyclerView.Adapter<BasicAdapter.BasicViewHolder> {
 
-    private final List<Contacto> data;
+    private final List<Color> data;
 
 
 
-    public BasicAdapter(List<Contacto> data){
+    public BasicAdapter(List<Color> data){
         this.data=data;
     }
 
